@@ -38,25 +38,17 @@ static bool IsSafe(string line, int tolerant = 0)
 
         if (isAscend == null)
         {
-            if (diff < 1 || diff > 3)
-            {
-                badLevel++;
-            }
+            if (diff < 1 || diff > 3) badLevel++;
             isAscend = currLevel < nextLevel;
         }
         else if (((bool)isAscend) && ((currLevel > nextLevel) || diff < 1 || diff > 3))
-        {
             badLevel++;
-        }
+
         else if ((!(bool)isAscend) && ((currLevel < nextLevel) || diff < 1 || diff > 3))
-        {
             badLevel++;
-        }
 
         if (badLevel > tolerant)
-        {
             return false;
-        }
     }
     return true;
 }
