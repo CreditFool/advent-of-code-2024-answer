@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Day1", "CSharp_Day1\CSharp_Day1.csproj", "{CA12A045-9D79-4C2A-AE8B-B28272C831C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2Csharp", "..\Day 2\Day2Csharp\Day2Csharp.csproj", "{CC76C65B-9F52-48F3-8943-3B6DDAB87A95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CA12A045-9D79-4C2A-AE8B-B28272C831C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA12A045-9D79-4C2A-AE8B-B28272C831C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA12A045-9D79-4C2A-AE8B-B28272C831C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC76C65B-9F52-48F3-8943-3B6DDAB87A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC76C65B-9F52-48F3-8943-3B6DDAB87A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC76C65B-9F52-48F3-8943-3B6DDAB87A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC76C65B-9F52-48F3-8943-3B6DDAB87A95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
